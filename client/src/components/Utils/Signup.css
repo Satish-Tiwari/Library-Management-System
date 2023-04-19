@@ -1,0 +1,76 @@
+.signup-form {
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.heading-signup{
+  color: rgb(74, 74, 196);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-form h4 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  /* font-weight: bold; */
+}
+
+.form-group input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.radio-group {
+  margin-bottom: 10px;
+}
+
+.radio-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.radio-group input[type="radio"] {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.button-group {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-group button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3369a3;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-group button:hover {
+  background-color: #0062cc;
+}

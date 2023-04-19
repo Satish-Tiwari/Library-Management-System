@@ -1,0 +1,82 @@
+.add-membership-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140vh;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: rgb(79, 79, 145);
+    margin-left: 35%;
+    }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  input[type="text"], input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .cancel-button, .confirm-button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .cancel-button {
+    background-color: #ccc;
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  .confirm-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .confirm-button:hover {
+    background-color: #0069d9;
+  }
+  
+  .membership-radio{
+    display: flex;
+  }
+
+  .membership-radio div{
+    margin-right: 1rem;
+  }

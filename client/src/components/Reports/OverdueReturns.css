@@ -1,0 +1,52 @@
+/* Table container */
+.table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  /* Table title */
+  .table-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Book table */
+  .overdue-table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  
+  .overdue-table th,
+  .overdue-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .overdue-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .overdue-table td:first-child {
+    font-weight: bold;
+  }
+  
+  /* Back button */
+  .back-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #3e8e41;
+  }
+  

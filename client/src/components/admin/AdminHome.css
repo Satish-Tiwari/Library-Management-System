@@ -1,0 +1,99 @@
+.headingword {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  color: rgb(103, 103, 179);
+}
+
+.admin-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+  background-color: #fff;
+  margin-top: 3rem;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.maintenance-button,
+.reports-button,
+.transactions-button,
+.logout-button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #514d4d;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.maintenance-button,
+.reports-button,
+.transactions-button{
+  border: 2px solid green;
+}
+
+.logout-button{
+  border: 2px solid red;
+}
+
+.maintenance-button:hover,
+.reports-button:hover,
+.transactions-button:hover{
+  background-color: green;
+}
+
+.logout-button:hover {
+  background-color: red;
+}
+
+.table-container-admin-home {
+  width: 50%;
+  background-color: #fff;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+}
+
+.table-container-admin-home table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+.table-container-admin-home table thead {
+  background-color: #5d6064;
+  color: #fff;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+/* for Link tag */
+
+.maintenance-button a {
+  text-decoration: none;
+  color: #514d4d;
+}
+
+.reports-button a {
+  text-decoration: none;
+  color: #514d4d;
+}
+
+.transactions-button a {
+  text-decoration: none;
+  color: #514d4d;
+}

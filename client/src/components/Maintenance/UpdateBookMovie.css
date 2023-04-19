@@ -1,0 +1,106 @@
+.update-bookmovie-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: rgb(79, 79, 145);
+    margin-left: 35%;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .cancel-button,
+  .update-button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .cancel-button {
+    background-color: #ccc;
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  .update-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .update-button:hover {
+    background-color: #0069d9;
+  }
+  
+  .membership-radio {
+    display: flex;
+  }
+  
+  .membership-radio div {
+    margin-right: 1rem;
+  }
+  
+  .serialno-drop {
+    margin-top: 10px;
+  }
+  
+  .select-status {
+    margin-top: 10px;
+  }
+  
+  .select-status select {
+    margin-left: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  @media (max-width: 768px) {
+    h2 {
+      margin-left: 20%;
+    }
+  }
+  

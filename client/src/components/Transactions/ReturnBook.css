@@ -1,0 +1,97 @@
+.return-book-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 500px;
+    margin: 50px auto;
+  }
+  
+  .return-book-form h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .input-container label {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .input-container select,
+  .input-container input[type="text"],
+  .input-container input[type="date"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .input-container select {
+    width: 100%;
+  }
+  
+  .input-container input[type="text"],
+  .input-container input[type="date"] {
+    width: 100%;
+  }
+  
+  .input-container input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+  }
+  
+  .input-container input[type="date"]::-webkit-inner-spin-button {
+    display: none;
+  }
+  
+  .input-container input[type="date"]::-webkit-clear-button {
+    display: none;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .button-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .cancel-button {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .cancel-button:hover {
+    background-color: #c82333;
+  }
+  
+  .confirm-button {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .confirm-button:hover {
+    background-color: #218838;
+  }
+  
